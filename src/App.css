@@ -9,19 +9,20 @@
 }
 
 .Board{
-  gap: 20px;
+  padding: 15px;
+  gap: 15px;
   width: min-content;
   height: min-content;
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  background-color: #333;
+  background-color: black;
 }
 
 .Tile{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: whitesmoke;
   width: 100px;
   height: 100px;
 }
